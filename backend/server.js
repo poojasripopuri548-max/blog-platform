@@ -21,7 +21,15 @@ mongoose.connect(process.env.MONGO_URI)
 app.use("/api/auth", authRoutes);
 app.use("/api/posts", postRoutes);
 app.use("/api/comments", commentRoutes);
+app.get("/", (req, res) => {
+  res.send("Blog Platform Backend is Running 🚀");
+});
 
+app.get("/api", (req, res) => {
+  res.json({
+    message: "Blog API is running",
+  });
+});
 app.listen(process.env.PORT, () => {
   console.log(`Server running on ${process.env.PORT}`);
 });
