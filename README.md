@@ -2,7 +2,7 @@
 
 A full-stack blogging platform with user authentication, post management, and comment functionality. Built with Node.js, Express, MongoDB, and vanilla JavaScript.
 
-## Live Demo: https://blog-platform-alpha-beryl.vercel.app/login
+## Live Demo: https://blog-platform.poojasripopuri548.workers.dev
 ## Features
 
 - **User Authentication**
